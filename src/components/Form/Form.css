@@ -1,0 +1,31 @@
+.Form form {
+  display: flex;
+}
+
+.Form input {
+  padding: 11px;
+  outline: none;
+  border: 1px solid grey;
+  font-size: 20px;
+  border-radius: 5px 0 0 5px;
+  border: 3px solid gray;
+}
+
+.Form button {
+  padding: 11px;
+  outline: none;
+  border: 3px solid gray;
+  background-color: white;
+  font-size: 20px;
+  border-radius: 0 5px 5px 0px;
+  cursor: pointer;
+  transition: 100ms all ease-in-out;
+}
+
+.Form button:hover {
+  background-color: darkgray;
+}
+
+.Form button:active {
+  background-color: gray;
+}

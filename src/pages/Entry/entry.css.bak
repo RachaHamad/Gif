@@ -1,0 +1,8 @@
+.Entry {
+  background-color: black;
+  flex-grow: 1;
+}
+
+.Entry span {
+  display: block;
+}

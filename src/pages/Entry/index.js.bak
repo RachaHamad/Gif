@@ -1,0 +1,20 @@
+import { useSelector } from 'react-redux';
+import { useParams } from 'react-router-dom';
+import './entry.css';
+
+export default () => {
+  const { id } = useParams();
+  const gif = useSelector(
+    (state) => state.searchResults.data?.filter((gif) => gif.id === id)[0]
+  );
+
+  return (
+    <div className="Entry">
+      <span>{gif?.type}</span>
+      <span>{gif?.title}</span>
+      <span>{gif?.url}</span>
+      <span>{gif?.slug}</span>
+      <span>{gif?.username}</span>
+    </div>
+  );
+};

@@ -1,0 +1,47 @@
+.Entry {
+  background-color: black;
+  flex-grow: 1;
+}
+.tableDetails{
+  background-color: black;
+  flex-grow: 1;
+
+}
+.Entry span {
+  display: block;
+}
+.Entry a{
+  
+    text-decoration: none;
+    color: red;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.blockr {
+    /*display: block;
+    width: 100%;*/
+    border: none;
+    background-color: #ff6666;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .blockm {
+    /*display: block;
+    width: 100%;*/
+    border: none;
+    background-color: #9933ff;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .iframe{
+      width:50%;
+      height:400px;
+  }
